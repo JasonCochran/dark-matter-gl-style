@@ -27,8 +27,8 @@
       "url": "http://localhost:85/data/v3.json"
     }
   },
-  "sprite": "https://openmaptiles.github.io/dark-matter-gl-style/sprite",
-  "glyphs": "https://free.tilehosting.com/fonts/{fontstack}/{range}.pbf?key={key}",
+  "sprite": "http://localhost:85/styles/dark-matter-gl-style/sprite",
+  "glyphs": "http://localhost:85/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
