@@ -24,11 +24,11 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "http://localhost:85/data/v3.json"
+      "url": "mbtiles://{v3}"
     }
   },
-  "sprite": "http://localhost:85/styles/dark-matter-gl-style/sprite",
-  "glyphs": "http://localhost:85/fonts/{fontstack}/{range}.pbf",
+  "sprite": "{styleJsonFolder}/sprite",
+  "glyphs": "{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -1853,6 +1853,5 @@
         "text-color": "rgb(101,101,101)"
       }
     }
-  ],
-  "id": "dark-matter"
+  ]
 }
